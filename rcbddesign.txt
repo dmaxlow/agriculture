@@ -1,0 +1,5 @@
+library(agricolae)
+
+trt <- c("Actara", "Admire", "Brigade", "Pyganic", "UTC")
+outdesign <- design.rcbd(trt, 3, serie=10)
+#3 blocks and 10 trts
